@@ -13,7 +13,6 @@ function calculate_gaps(values):
     return gaps
 
 function sort(values, gaps):
-
       n = length_of(values)
       gaps = calculate_gaps(values)
       for each gap in gaps:
